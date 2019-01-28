@@ -1,0 +1,11 @@
+
+var number = 0;
+var elNumber = document.getElementById('number');
+var btnIncrease = document.getElementById('increase');
+
+btnIncrease.onclick = function() {
+  number++;
+  elNumber.innerText = number;
+}
+
+기존 바닐라로 dom을 제어하는방법
